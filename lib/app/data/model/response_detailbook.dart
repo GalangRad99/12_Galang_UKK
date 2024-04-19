@@ -18,7 +18,7 @@ class ResponseDetailbook {
       });
     }
   }
-  bool? status;
+  int? status;
   String? message;
   List<DataDetailBook>? data;
 
