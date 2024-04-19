@@ -71,7 +71,7 @@ class BookView extends GetView<BookController> {
                     return InkWell(
                       onTap: () {
                         Get.toNamed(
-                          Routes.DETAIL_BOOK,
+                          Routes.ADD_PEMINJAMAN,
                           parameters: {'id': book.id?.toString() ?? '0', 'judul': book.judul ?? ""},
                         );
                       },
